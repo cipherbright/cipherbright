@@ -9,10 +9,17 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = get(this.props, 'data.contentfulBlogPost')
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-
+    
     return (
       <div>
-        <Helmet title={`${post.title} | ${siteTitle}`} />
+        <Helmet title={`${post.title} | ${siteTitle}`}
+        link={[
+          { rel: 'shortcut icon', type: 'image/png', href: "https://images.ctfassets.net/4ubcz43h3w7v/5kcJAnIUYCYHSUurfUc6YK/47d4229b4d75c414f64d7c5cc18a7a9d/cipherinside.png?h=250" }
+        ]}
+        >
+          <meta charSet="utf-8" />
+          <title>{`${post.title} | The Bright Webs`}</title>
+        </Helmet>
         <div className={heroStyles.hero}>
           <Img className="bannerImage" alt={post.title} sizes={post.heroImage.sizes} />
         </div>
