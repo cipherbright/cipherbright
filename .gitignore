@@ -1,0 +1,8 @@
+# Don't track content of these folders
+.cache/
+node_modules/
+public/
+
+#Files to ignore
+.contentful.json
+package-lock.json
