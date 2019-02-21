@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Hero from '../components/hero'
 import ArticlePreview from '../components/article-preview'
 
-class RootIndex extends React.Component {
+class AboutUs extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allContentfulBlogPost.edges')
@@ -12,36 +12,32 @@ class RootIndex extends React.Component {
     
     return (
       <div>
-        <Helmet title={siteTitle}
-        link={[
-          { rel: 'shortcut icon', type: 'image/png', href: "https://images.ctfassets.net/4ubcz43h3w7v/5kcJAnIUYCYHSUurfUc6YK/47d4229b4d75c414f64d7c5cc18a7a9d/cipherinside.png?h=250" }
-        ]}
-        >
-          <meta charSet="utf-8" />
-          <title>Cipher Bright - The Bright Webs</title>
-        </Helmet>
-        <Hero data={author.node} />
-        <h1>Recent Articles</h1>
+        <Helmet title={siteTitle} />
+        <Hero bannerImage="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"/>
+        <h1>About Us</h1>
         <div className="wrapper">
-          <ul className="article-list">
-            {posts.map(({ node }) => {
-              return (
-                <li key={node.slug}>
-                  <ArticlePreview article={node} />
-                </li>
-              )
-            })}
-          </ul>
+            <div className="leftRightOuter">
+                <div className="leftSide">
+                    <img src="https://avatars3.githubusercontent.com/u/25176325?s=400&v=4" />
+                </div>
+                <div className="rightSide">
+                    <p>You are currently in a blogging site which provides latest blogs which are needs of people.</p>
+
+                    <p>If you are a Beginner in something new, you are on the correct location. Just find out the best solution which suits you!</p>
+
+                    <p>Founder of The Cipher Bright: <b>Faisal Alvi.</b></p>
+                </div>
+            </div>
         </div>
       </div>
     )
   }
 }
 
-export default RootIndex
+export default AboutUs
 
 export const pageQuery = graphql`
-  query AboutQuery {
+  query HomeQuery {
     allContentfulBlogPost(sort: { fields: [publishDate], order: DESC }) {
       edges {
         node {

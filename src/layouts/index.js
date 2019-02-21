@@ -17,13 +17,23 @@ class Template extends React.Component {
 
     return (
       <Container>
-        <div className="header">
-          <div className="logo-container">
-            <img src="//images.ctfassets.net/4ubcz43h3w7v/1r08zza6LeopKoRtFtlfoG/f9522f072346ad116905b30ec6c243db/cipherblog.png" />
+        <div className="headerOuter">
+          <div className="header" style={{ maxWidth: 1180, margin: '0 auto' }}>
+            <div className="logo-container">
+              <Link to="/"><img src="//images.ctfassets.net/4ubcz43h3w7v/1r08zza6LeopKoRtFtlfoG/f9522f072346ad116905b30ec6c243db/cipherblog.png" /></Link>
+            </div>
+            <Navigation />
           </div>
-          <Navigation />
         </div>
-        {children()}
+        <div style={{ maxWidth: 1180, margin: '0 auto' }}>
+          {children()}
+        </div>
+        <div className="footer">
+          <div className="footerLogo">
+            <img src="https://images.ctfassets.net/4ubcz43h3w7v/4dNc9nB80vzzIT0jp69O8U/88a18eb28ce545029a3f540044b3025b/cipheroutside.png?h=250"></img>
+          </div>
+        </div>
+        
       </Container>
     )
   }

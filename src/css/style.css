@@ -8,13 +8,121 @@
     margin: 30px 0 0;
 }
 body{
-    background: transparent;
+    background: #ffffff;
 }
 nav {
     float: right;
-    min-width: 500px;
 }
 .header {
     overflow: hidden;
     margin: 0 0 20px;
+}
+code {
+    background: #c79a633b;
+    padding: 10px;
+    display: block;
+    border: 1px solid #c79a63;
+}
+.bannerImage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.15);
+    box-shadow: 0 0 7px rgba(0,0,0,.15);
+    margin-top: 20px;
+}
+ul.article-list li {
+    margin-bottom: 20px;
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+ul.article-list {
+    display: inline-block;
+    margin: 0px -10px;
+}
+
+ul.article-list li:nth-child(3n+1) {
+    clear: both;
+}
+.postBottom h3 {
+    margin-top: 0px;
+}
+
+.postBottom {
+    padding: 30px;
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.15);
+    box-shadow: 0 0 7px rgba(0,0,0,.15);
+    background: #FFFFFF;
+    height: 200px;
+}
+.headerOuter {
+    background: #FFF;
+}
+
+body nav ul,.src-components----navigation-module---navigation---_yI7y {
+    height: auto;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+nav ul li a,.src-components----navigation-module---navigationItem---1plNx a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+nav ul li a:hover, .src-components----navigation-module---navigationItem---1plNx a:hover {
+    background: rgba(87, 184, 189, 0.82);
+    color: #FFF;
+}
+
+nav ul li,.src-components----navigation-module---navigationItem---1plNx {
+    margin: 0;
+}
+body img {
+    width: auto;
+}
+h1 {
+    border-bottom: 1px solid #c3bdbd;
+}
+.leftSide {
+    float: left;
+    width: 35%;
+}
+.rightSide {
+    float: right;
+    width: 63%;
+}
+.leftRightOuter {
+    overflow: hidden;
+}
+.footer {
+    border-top: 1px solid #c3bdbc2e;
+    padding: 50px 0 110px;
+    background: #f4f4f4;
+    margin: 40px 0 0;
+}
+
+.footerLogo {
+    text-align: center;
+}
+
+.footerLogo img {
+    margin: 0px auto;
+    max-width: 80px;
+}
+.postBottom a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
