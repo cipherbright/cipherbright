@@ -18,7 +18,7 @@ class BlogPostTemplate extends React.Component {
         ]}
         >
           <meta charSet="utf-8" />
-          <title>{`${post.title} | The Bright Webs`}</title>
+          <title>{`${post.title} - Cipher Bright`}</title>
         </Helmet>
         <div className={heroStyles.hero}>
           <Img className="bannerImage" alt={post.title} sizes={post.heroImage.sizes} />
