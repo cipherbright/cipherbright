@@ -14,7 +14,14 @@ class BlogIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle}
+        link={[
+          { rel: 'shortcut icon', type: 'image/png', href: "https://images.ctfassets.net/4ubcz43h3w7v/5kcJAnIUYCYHSUurfUc6YK/47d4229b4d75c414f64d7c5cc18a7a9d/cipherinside.png?h=250" }
+        ]}
+        >
+          <meta charSet="utf-8" />
+          <title>Blog - Cipher Bright</title>
+        </Helmet>
         {/* <div className={styles.hero}>
           Blog
         </div> */}

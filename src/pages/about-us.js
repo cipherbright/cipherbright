@@ -12,7 +12,14 @@ class AboutUs extends React.Component {
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle}
+        link={[
+          { rel: 'shortcut icon', type: 'image/png', href: "https://images.ctfassets.net/4ubcz43h3w7v/5kcJAnIUYCYHSUurfUc6YK/47d4229b4d75c414f64d7c5cc18a7a9d/cipherinside.png?h=250" }
+        ]}
+        >
+          <meta charSet="utf-8" />
+          <title>About Us - Cipher Bright</title>
+        </Helmet>
         <Hero bannerImage="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"/>
         <h1>About Us</h1>
         <div className="wrapper">
