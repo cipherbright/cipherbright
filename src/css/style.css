@@ -145,6 +145,10 @@ h1 {
       padding-bottom: 10px;
   }
   .logo-container img {
-    width: 100%;
+      width: 100%;
+  }
+  .leftSide, .rightSide {
+      float: none;
+      width: 100%;
   }
 }
