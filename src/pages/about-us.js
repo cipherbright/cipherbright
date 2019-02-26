@@ -24,13 +24,13 @@ class AboutUs extends React.Component {
                     <p>Cipher Bright is a platform through which you can be more productive and be updated with the latest trends in internet technology.</p>
                     <p>It gives BRIGHTness to the Lives!</p>
 
-                    <i>Run with us!</i><br>
-                    <i>Grow with us!</i><br>
+                    <i>Run with us!</i><br />
+                    <i>Grow with us!</i><br />
                     <i>Win with us!</i>
 
-                    <hr>
+                    <hr />
 
-                    <p><b>FAISAL ALVI</b><br>FOUNDER</p>
+                    <p><b>FAISAL ALVI</b><br />FOUNDER</p>
 
                     <p><b>Vision</b></p>
                     <p>As a founder of Cipher Bright, Faisal has set "The Vision" of Cipher Bright is to use the latest/trending Web Technology to help people all around the world!</p>
