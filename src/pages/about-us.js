@@ -24,7 +24,7 @@ class AboutUs extends React.Component {
                     <p>Cipher Bright is a platform through which you can be more productive and be updated with the latest trends in internet technology.</p>
                     <p>It gives BRIGHTness to the Lives!</p>
 
-                    <i>Run with us!</b></i><br>
+                    <i>Run with us!</i><br>
                     <i>Grow with us!</i><br>
                     <i>Win with us!</i>
 
