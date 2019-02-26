@@ -9,7 +9,7 @@ class AboutUs extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allContentfulBlogPost.edges')
     const [author] = get(this, 'props.data.allContentfulPerson.edges')
-    
+
     return (
       <div>
         <Helmet title={siteTitle} />
@@ -21,11 +21,23 @@ class AboutUs extends React.Component {
                     <img src="https://avatars3.githubusercontent.com/u/25176325?s=400&v=4" />
                 </div>
                 <div className="rightSide">
-                    <p>You are currently in a blogging site which provides latest blogs which are needs of people.</p>
+                    <p>Cipher Bright is a platform through which you can be more productive and be updated with the latest trends in internet technology.</p>
+                    <p>It gives BRIGHTness to the Lives!</p>
 
-                    <p>If you are a Beginner in something new, you are on the correct location. Just find out the best solution which suits you!</p>
+                    <i>Run with us!</b></i><br>
+                    <i>Grow with us!</i><br>
+                    <i>Win with us!</i>
 
-                    <p>Founder of The Cipher Bright: <b>Faisal Alvi.</b></p>
+                    <hr>
+
+                    <p><b>FAISAL ALVI</b><br>FOUNDER</p>
+
+                    <p><b>Vision</b></p>
+                    <p>As a founder of Cipher Bright, Faisal has set "The Vision" of Cipher Bright is to use the latest/trending Web Technology to help people all around the world!</p>
+
+                    <p><b>Mission</b></p>
+                    <p>"The Mission" of Cipher Bright is to focus and find BRIGHTest solutions of any kind of problems and serve it to the world in the form of Web Content.</p>
+
                 </div>
             </div>
         </div>
