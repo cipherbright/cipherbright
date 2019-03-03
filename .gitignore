@@ -2,6 +2,7 @@
 .cache/
 node_modules/
 public/
+.idea/
 
 #Files to ignore
 .contentful.json

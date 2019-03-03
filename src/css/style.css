@@ -109,11 +109,19 @@ h1 {
 }
 .footer {
     border-top: 1px solid #c3bdbc2e;
-    padding: 50px 0 110px;
+    padding: 50px 0 10px;
     background: #f4f4f4;
     margin: 40px 0 0;
 }
-
+.disclaimer {
+    text-align: center;
+    margin: 70px auto 20px;
+    font-size: 13px;
+    border-top: 1px solid #dedcdc;
+    max-width: 1100px;
+    padding-top: 20px;
+    color: #716e6e;
+}
 .footerLogo {
     text-align: center;
 }

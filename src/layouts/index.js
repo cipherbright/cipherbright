@@ -32,8 +32,9 @@ class Template extends React.Component {
           <div className="footerLogo">
             <img src="https://images.ctfassets.net/4ubcz43h3w7v/4dNc9nB80vzzIT0jp69O8U/88a18eb28ce545029a3f540044b3025b/cipheroutside.png?h=250"></img>
           </div>
+          <div className="disclaimer">Copyright &copy; {(new Date().getFullYear())} Cipher Bright. All rights reserved.</div>
         </div>
-        
+
       </Container>
     )
   }
