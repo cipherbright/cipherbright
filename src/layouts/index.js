@@ -4,6 +4,8 @@ import base from './base.css'
 import Container from '../components/container'
 import Navigation from '../components/navigation'
 import '../css/style.css'
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { IoMdMail } from "react-icons/io";
 
 class Template extends React.Component {
   render() {
@@ -29,8 +31,21 @@ class Template extends React.Component {
           {children()}
         </div>
         <div className="footer">
-          <div className="footerLogo">
-            <img src="https://images.ctfassets.net/4ubcz43h3w7v/4dNc9nB80vzzIT0jp69O8U/88a18eb28ce545029a3f540044b3025b/cipheroutside.png?h=250"></img>
+          <div className="leftRightOuter logo-with-socials">
+            <div className="container">
+              <div className="left50">
+                <div className="footerLogo">
+                  <Link to="/"><img src="//images.ctfassets.net/4ubcz43h3w7v/1r08zza6LeopKoRtFtlfoG/f9522f072346ad116905b30ec6c243db/cipherblog.png" /></Link>
+                </div>
+              </div>
+              <div className="right50 footer-socials">
+                <a className="iconfb" target="_blank" href="https://www.facebook.com/cipherbrightblogs"><FaFacebookF /></a>
+                <a className="icontw" target="_blank" href="https://twitter.com/CipherBright"><FaTwitter /></a>
+                <a className="iconli" target="_blank" href="https://www.linkedin.com/company/cipherbright/"><FaLinkedinIn /></a>
+                <a className="iconin" target="_blank" href="https://www.instagram.com/cipherbright_/"><FaInstagram /></a>
+                <a className="iconml" href="mailto:inquiry@cipherbright.com"><IoMdMail /></a>
+              </div>
+            </div>
           </div>
           <div className="disclaimer">Copyright &copy; {(new Date().getFullYear())} Cipher Bright. All rights reserved.</div>
         </div>

@@ -118,22 +118,57 @@ h1 {
     margin: 70px auto 20px;
     font-size: 13px;
     border-top: 1px solid #dedcdc;
-    max-width: 1100px;
+    max-width: 1180px;
     padding-top: 20px;
     color: #716e6e;
 }
-.footerLogo {
-    text-align: center;
-}
-
 .footerLogo img {
-    margin: 0px auto;
-    max-width: 80px;
+    width: 350px;
+    max-width: 100%;
 }
 .postBottom h3 a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 22px;
+}
+.container {
+    width: 1180px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.right50.footer-socials {
+    text-align: right;
+}
+
+.right50.footer-socials a {
+    font-size: 26px;
+    display: inline-block;
+    margin-left: 14px;
+    background: #FFF;
+    padding: 7px 7px 3px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.iconfb {color: #3b5998};.iconfb:hover {background-color: #3b5998 !important;}
+.icontw {color: #55acee};.icontw:hover {background-color: #55acee !important;}
+.iconli {color: #0077b5};.iconli:hover {background-color: #0077b5 !important;}
+.iconin {color: #c32aa3};.iconin:hover {background-color: #c32aa3 !important;}
+.iconml {color: #D44638};.iconml:hover {background-color: #D44638 !important;}
+.iconfb:hover, .icontw:hover, .iconli:hover, .iconin:hover, .iconml:hover {color: #ffffff};
+
+@media only screen and (min-width: 768px) {
+    .left50 {
+        width: 50%;
+        float: left;
+    }
+    
+    .right50 {
+        float: right;
+        width: 50%;
+    }
 }
 @media only screen and (max-width: 768px) {
   ul.article-list li {
@@ -159,4 +194,31 @@ h1 {
       float: none;
       width: 100%;
   }
+  .container {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.right50.footer-socials a {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
+.right50.footer-socials {
+    margin: 30px 0 0;
+    text-align: center;
+}
+.header nav {
+    float: none;
+    text-align: center;
+}
+.header nav ul {
+    margin: 15px 10px 5px;
+}
+.bannerImage {
+    height: 300px;
+}
+.footerLogo img {
+    width: 250px;
+    margin: auto;
+}
 }
