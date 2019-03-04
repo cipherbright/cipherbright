@@ -43,7 +43,7 @@ class Template extends React.Component {
                 <a className="icontw" target="_blank" href="https://twitter.com/CipherBright"><FaTwitter /></a>
                 <a className="iconli" target="_blank" href="https://www.linkedin.com/company/cipherbright/"><FaLinkedinIn /></a>
                 <a className="iconin" target="_blank" href="https://www.instagram.com/cipherbright_/"><FaInstagram /></a>
-                <a className="iconml" href="mailto:inquiry@cipherbright.com"><IoMdMail /></a>
+                <a className="iconml" href="mailto:faisalalvi33@gmail.com"><IoMdMail /></a>
               </div>
             </div>
           </div>
