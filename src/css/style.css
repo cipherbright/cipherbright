@@ -156,8 +156,9 @@ h1 {
 .icontw {color: #55acee};.icontw:hover {background-color: #55acee !important;}
 .iconli {color: #0077b5};.iconli:hover {background-color: #0077b5 !important;}
 .iconin {color: #c32aa3};.iconin:hover {background-color: #c32aa3 !important;}
+.iconph {color: #1e7145};.iconph:hover {background-color: #1e7145 !important;}
 .iconml {color: #D44638};.iconml:hover {background-color: #D44638 !important;}
-.iconfb:hover, .icontw:hover, .iconli:hover, .iconin:hover, .iconml:hover {color: #ffffff};
+.iconfb:hover, .icontw:hover, .iconli:hover, .iconin:hover, .iconml:hover, .iconph:hover {color: #ffffff};
 
 @media only screen and (min-width: 768px) {
     .left50 {
@@ -202,10 +203,12 @@ h1 {
     font-size: 20px;
     width: 30px;
     height: 30px;
+    margin: auto;
 }
 .right50.footer-socials {
     margin: 30px 0 0;
     text-align: center;
+    display: flex;
 }
 .header nav {
     float: none;

@@ -4,7 +4,7 @@ import base from './base.css'
 import Container from '../components/container'
 import Navigation from '../components/navigation'
 import '../css/style.css'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaPhone } from 'react-icons/fa';
 import { IoMdMail } from "react-icons/io";
 
 class Template extends React.Component {
@@ -43,7 +43,8 @@ class Template extends React.Component {
                 <a className="icontw" target="_blank" href="https://twitter.com/CipherBright"><FaTwitter /></a>
                 <a className="iconli" target="_blank" href="https://www.linkedin.com/company/cipherbright/"><FaLinkedinIn /></a>
                 <a className="iconin" target="_blank" href="https://www.instagram.com/cipherbright_/"><FaInstagram /></a>
-                <a className="iconml" href="mailto:inquiry@cipherbright.com"><IoMdMail /></a>
+                <a className="iconph" target="_blank" href="tel:+917041763022"><FaPhone /></a>
+                <a className="iconml" href="mailto:inquiry@cipherbright.com"><IoMdMail /></a>                
               </div>
             </div>
           </div>
