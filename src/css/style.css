@@ -92,6 +92,7 @@ nav ul li,.src-components----navigation-module---navigationItem---1plNx {
 }
 body img {
     width: auto;
+    max-width: 100%;
 }
 h1 {
     border-bottom: 1px solid #c3bdbd;
