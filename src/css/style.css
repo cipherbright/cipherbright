@@ -172,6 +172,9 @@ iframe {
 .center {
     text-align: center;
 }
+a {
+    color: #57b8bd;
+}
 @media only screen and (min-width: 768px) {
     .left50 {
         width: 50%;
