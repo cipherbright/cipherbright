@@ -9,7 +9,7 @@ export default ({ bannerImage }) => (
     {/* <Img className={styles.heroImage} alt={data.name} sizes={data.heroImage.sizes} /> */}
     
     {/* <img className="bannerImage" alt={data.name} src="https://images.unsplash.com/photo-1484706523581-25ee30e3fe03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80" /> */}
-    <img className="bannerImage" src={bannerImage ? bannerImage : "https://fencecore.com/wp-content/uploads/2018/12/blog-banner-2-2.jpg"} />
+    <img className="bannerImage" src={bannerImage ? bannerImage : "https://images.ctfassets.net/4ubcz43h3w7v/hzNOpwe4VZimIV2mDmFWH/58a9f20ef5942e6d394a089369a7b7a8/banner.jpg"} />
 
     {/* another banner https://images.unsplash.com/photo-1497348231296-713b847f4ca4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=80 */}
     {/* <div className={styles.heroDetails}>
