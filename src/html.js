@@ -39,6 +39,8 @@ module.exports = class HTML extends React.Component {
             gtag("js", new Date());
 
             gtag("config", "UA-137577266-1");
+            gtag('set', {'user_id': 'UA-137577266-1'}); // Set the user ID using signed-in user_id.
+            ga('set', 'userId', 'UA-137577266-1'); // Set the user ID using signed-in user_id.
             `}
           </script>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
